@@ -1,0 +1,146 @@
+body {
+    position: relative;
+}
+body::before {
+    content: "";
+    background-image: url(https://media.istockphoto.com/id/1152480262/vector/matrix-code-background.jpg?s=170667a&w=0&k=20&c=5z2jJsXHMwxuGVbXblo-dba-BAnDfNzi0qOe__JvW6Y=);
+    background-size: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.70;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: #841CEC 1px 1px;
+    position: relative;
+}
+.container {
+    border: 2px solid white;
+    margin-bottom: 10px;
+    position: relative;
+}
+.color-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px 0px;
+    margin: 25px auto;
+}
+.color-panel {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 20%;
+    text-align: center;
+    padding: 0px 0px;
+    margin-bottom: 20px;
+    margin: 0px 15px;
+    border: solid 2px white;
+}
+.color-label {
+    padding: 0px 10px;
+    margin: 10px 20px auto;
+    text-shadow: black 1px 1px;
+    font-family: gfs neohellenic;
+}
+.color-hex {
+    bottom: 10px;
+    text-shadow: black 1px 1px;
+    font-family: gfs neohellenic;
+}
+.royal-purple {
+    background-color: #841CEC;
+    color: white;
+}
+.pumpkin-orange {
+    background-color: #F27F0C;
+    color: white;
+}
+.midnight-black {
+    background-color: #0C0019;
+    color: white;
+}
+.blood-red {
+    background-color: #F91F31;
+    color: white;
+}
+#colors {
+    font-family: rajdhani;
+    font-style: italic;
+    margin-left: 30px;
+    color: white;
+    text-shadow: #841CEC;
+}
+#fonts {
+    font-family: rajdhani;
+    font-style: italic;
+    margin-left: 30px;
+    color: white;
+    text-shadow: #841CEC;
+}
+.font-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px 0px;
+    margin: 25px auto;
+}
+.font-label {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+}
+.space-grotesk {
+    font-family: space grotesk;
+    color: white;
+}
+.rajdhani {
+    font-family: rajdhani;
+    color: white;
+}
+.gfs-neohellenic {
+    font-family: gfs neohellenic;
+    color: white;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+#text-styles {
+    font-family: rajdhani;
+    font-style: italic;
+    margin-left: 30px;
+    position: relative;
+    color: white;
+    text-shadow: #841CEC;
+}
+#main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#sub {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#para {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-container {
+    margin-left: 30%;
+    color: white;
+}
+.text-panel1 {
+    font-family: space grotesk;
+}
+.text-panel2 {
+    font-family: rajdhani;
+}
+.text-panel3 {
+    font-family: gfs neohellenic;
+}
